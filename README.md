@@ -6,7 +6,7 @@ A Python-based domain modeling project for a coffee shop. This challenge reinfor
 
 ---
 
-## 🧠 Project Overview
+##  Project Overview
 
 This project simulates a coffee shop ecosystem using three core models:
 
@@ -24,7 +24,7 @@ This forms a **many-to-many** relationship between **Customers** and **Coffees**
 
 ---
 
-## 🗂️ Folder Structure
+##  Folder Structure
 
 coffee-shop-challenge/
 ├── Pipfile
@@ -40,7 +40,7 @@ coffee-shop-challenge/
 
 ---
 
-## ⚙️ Project Setup
+## Project Setup
 
 ### 1. Clone the repository
 
@@ -61,8 +61,8 @@ python3 -m venv env
 source env/bin/activate
 pip install -r requirements.txt  # if using pip instead of pipenv
 
-📦 Models & Methods
-✅ Customer
+Models & Methods
+ Customer
 
 Customer(name: str)
 
@@ -78,7 +78,7 @@ Customer(name: str)
 
     Customer.most_aficionado(coffee) – returns customer who spent the most on that coffee.
 
-✅ Coffee
+ Coffee
 
 Coffee(name: str)
 
@@ -94,7 +94,7 @@ Coffee(name: str)
 
     .average_price() – average order price.
 
-✅ Order
+Order
 
 Order(customer, coffee, price: float)
 
